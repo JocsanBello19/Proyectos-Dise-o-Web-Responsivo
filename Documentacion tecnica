@@ -1,0 +1,294 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./styles.css"/>
+        <title>Lenguajes de Programación</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head> 
+    <body>
+      <nav id="navbar">
+        <header id="nav-title"><b>LENGUAJES</b></header>
+        <ul>
+          <li><a class="nav-link" href="#HTML">HTML</a></li>
+          <li><a class="nav-link" href="#CSS">CSS</a></li>
+          <li><a class="nav-link" href="#JAVASCRIPT">JAVASCRIPT</a></li>
+          <li><a class="nav-link" href="#PHP">PHP</a></li>
+          <li><a class="nav-link" href="#MYSQL">MYSQL</a></li>
+          <li><a class="nav-link" href="#PYTHON">PYTHON</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+         <header>
+        <h1>Lenguajes de Programación para Desarrollo Web
+        </h1>
+      </header>
+        <section class="main-section" id="HTML">
+          <header>HTML
+          </header>
+          <article>
+          <p>Es un lenguaje de marcado de hipertexto utilizado para crear páginas web. Es el lenguaje de marcado estándar para la creación de páginas web y se utiliza en combinación con otros lenguajes, como CSS y JavaScript, para crear contenido dinámico y interactivivo en la web. Se compone de una serie de etiquetas, que son palabras o combinaciones de palabras precedidas por un símbolo "<" y seguidas por un símbolo ">". Estas etiquetas se utilizan para definir los elementos del contenido de la página y su comportamiento.</p>
+          <p>HTML se utiliza para definir la estructura y el contenido de una página web, incluyendo elementos como:</p>
+          <li>Títulos</li>
+          <li>Encabezados</li>
+          <li>Párrafos</li>
+          <li>Imágenes</li>
+          <li>Enlaces</li>
+          <li>Formularios</li>
+          <li>Tablas</li>
+          </article>
+        </section>
+        <br>
+        <section class="main-section" id="CSS">
+          <header>CSS
+          </header>
+          <article>
+          <p>Es un lenguaje de marcado de estilo para documentos escritos en HTML y XML. Permite definir el diseño y la presentación de los elementos de un documento, como la apariencia de los textos, los colores, las imágenes, las fuentes, los tamaños y posiciones de los elementos en una página web. CSS se aplica a un documento HTML mediante el uso de selecciones (selectores) que se aplican a los elementos HTML. Por ejemplo, se puede seleccionar todos los párrafos de un documento y aplicarles un estilo de fuente y color.</p>
+          <p>Aquí te dejo un ejemplo de código CSS para un botón con estilos personalizados:</p>
+          <code>
+            .button { <br>
+  background-color: #4CAF50; <br>
+  color: #fff; <br>
+  padding: 10px 20px; <br>
+  border: none; <br>
+  border-radius: 5px; <br>
+  cursor: pointer; <br>
+}
+          </code>
+          <p>Los beneficios de utilizar CSS incluyen:</p>
+          <li>Mejora la experiencia del usuario al proporcionar una presentación más atractiva y coherente.</li>
+          <li>Aumenta la accesibilidad al permitir la personalización de la presentación según las preferencias del usuario.</li>
+          <li>Facilita el mantenimiento y la actualización del contenido ya que se separa la lógica de presentación del contenido mismo.</li>
+          <br>
+          </article>
+        </section>
+        <section class="main-section" id="JAVASCRIPT">
+          <header>JAVASCRIPT
+          </header>
+          <article>
+          <p>JavaScript es un lenguaje de programación interpretado, es decir, no se compila antes de ejecutarse. Fue creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications. Su nombre proviene de la palabra "Java" y el prefijo "Script", ya que se inspiró en parte en el lenguaje de programación Java. En verdad es una herramienta poderoso y versátil que se utiliza ampliamente en la creación de aplicaciones web interactivas y dinámicas. Su flexibilidad y capacidad para interactuar con el DOM lo han convertido en un estándar indispensable en el desarrollo web.</p>
+          <p>Aquí te dejo un ejemplo básico de cómo imprimir un mensaje en la consola utilizando JavaScript:</p>
+          <code>
+            let nombre = "Juan"; <br>
+console.log("Mi nombre es " + nombre);
+          </code>
+          <p>JavaScript cuenta con una gran cantidad de bibliotecas y frameworks que facilitan el desarrollo de aplicaciones web. Algunas de las más populares son:</p>
+          <li>jQuery: Una biblioteca popular para manipular el DOM y simplificar el desarrollo de aplicaciones web.</li>
+          <li>React: Un framework para construir interfaces de usuario interactivas.</li>
+          <li>Angular: Un framework para construir aplicaciones web complejas.</li>
+          <li>Vue.js: Un framework para construir aplicaciones web interactivas.</li>
+          </article>
+        </section>
+        <br>
+        <section class="main-section" id="PHP">
+          <header>PHP
+          </header>
+          <article>
+          <p>Es un lenguaje de programación de código abierto y de lado del servidor, ampliamente utilizado para el desarrollo web. Se ejecuta en el servidor web, interpretando scripts que interactúan con bases de datos, realizan cálculos y generan contenido dinámico. PHP cuenta con una gran variedad de bibliotecas y extensiones que proporcionan funcionalidades para tareas como la conexión a bases de datos, la criptografía y la manipulación de imágenes. Su código se interpreta en tiempo de ejecución por el intérprete de PHP, en lugar de ser compilado previamente.</p>
+          <p>El código PHP se escribe en un sintaxis similar a los lenguajes C-style, con un enfoque en la simplicidad y legibilidad. Aquí tienes un ejemplo básico de un script PHP:</p>
+          <code>
+            <?php <br>
+  $nombre = "Juan"; <br>
+  echo "Hola, $nombre!"; <br>
+?>
+          </code>
+          <p>Sus ventajas son:</p>
+          <li><strong>Desarrollo rápido:</strong> El sintaxis de PHP es fácil de aprender, lo que lo hace ideal para el desarrollo rápido y prototipado.</li>
+          <li><strong>Generación de contenido dinámico:</strong> PHP puede generar contenido dinámico en tiempo real, lo que lo hace ideal para aplicaciones web interactivas.</li>
+          <li><strong>Flexibilidad:</strong> PHP puede ser utilizado para una amplia variedad de aplicaciones, desde sitios web simples hasta sistemas empresariales complejos.</li>
+          <li><strong>Gran comunidad:</strong> PHP cuenta con una gran comunidad de desarrolladores y usuarios, lo que significa que hay muchos recursos disponibles para aprender y solucionar problemas.</li>
+          <br>
+          </article>
+        </section>
+        <section class="main-section" id="MYSQL">
+          <header>MYSQL
+          </header>
+          <article>
+          <p>Es un sistema de gestión de bases de datos relacional (RDBMS) que se utiliza ampliamente para almacenar y gestionar grandes cantidades de datos en Internet. Fue creado en 1995 por Michael Widenius y David Axmark, y actualmente es propiedad de Oracle Corporation. Utiliza el lenguaje de consulta estructurado (SQL) para crear, modificar y eliminar bases de datos, tablas, índices y relaciones entre ellas. Además,  incluye mecanismos de seguridad como autenticación y autorización para proteger la base de datos.</p>
+          <p>La sintaxis básica de MySQL se basa en el lenguaje SQL, que incluye comandos para crear, modificar y eliminar bases de datos, tablas e índices. Aquí hay un ejemplo básico:</p>
+          <code>
+            CREATE TABLE usuarios ( <br>
+  id INT PRIMARY KEY, <br>
+  nombre VARCHAR(50), <br>
+  correo VARCHAR(100) <br>
+);
+          </code>
+          <p>Sus ventajas son:</p>
+          <li><strong>Facilidad de uso:</strong> MySQL es fácil de instalar y configurar, con una interfaz gráfica de usuario intuitiva.</li>
+          <li><strong>Compatibilidad con diferentes sistemas operativos:</strong> MySQL se puede ejecutar en Windows, macOS y Linux.</li>
+          <li><strong>Bajos costos:</strong> MySQL es software gratuito y open-source, lo que reduce los costos de mantenimiento y escalabilidad.</li>
+          <li><strong>Comunidad activa:</strong> MySQL tiene una gran comunidad de desarrolladores y usuarios que contribuyen a su desarrollo y crean plugins y herramientas adicionales.</li>
+          </article>
+        </section>
+        <br>
+        <section class="main-section" id="PYTHON">
+          <header>PYTHON
+          </header>
+          <article>
+          <p>Es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, creado en 1991 por Guido van Rossum. Es uno de los lenguajes más populares y ampliamente utilizados en el mundo actualmente. El código fuente de Python es muy legible, gracias a su sintaxis clara y concisa. No se compila, sino que se interpreta en tiempo real, lo que hace que sea rápido y fácil de desarrollar. Está orientado a objetos, lo que significa que se organiza alrededor de objetos y sus atributos y métodos.tiene una amplia variedad de bibliotecas y módulos disponibles para agregar funcionalidades específicas.</p>
+          <p>La sintaxis básica de Python se basa en indentación, lo que significa que el código se organiza utilizando espacios o tabs para definir bloques de código. Aquí hay un ejemplo básico:</p>
+          <code>
+          print("Hola, mundo!") <br>
+x = 5 <br>
+y = 3 <br>
+print(x + y)
+          </code>
+          <p>Sus ventajas son:</p>
+          <li><strong>Facilidad de aprendizaje:</strong> Python es un lenguaje fácil de aprender, especialmente para aquellos con experiencia previa en programación.</li>
+          <li><strong>Flexibilidad:</strong> Python se puede utilizar para una amplia variedad de tareas, desde desarrollo web hasta análisis de datos y machine learning.</li>
+          <li><strong>Comunidad activa:</strong> La comunidad de Python es muy activa y proporciona recursos y herramientas para ayudar a los desarrolladores a resolver problemas y mejorar sus habilidades.</li>
+          <li><strong>Bibliotecas y módulos:</strong> Python tiene una amplia variedad de bibliotecas y módulos disponibles para agregar funcionalidades específicas, como NumPy para matemáticas numéricas o Pandas para análisis de datos.</li>
+          </article>
+        </section> <br>
+      </main>
+    </body>
+</html>
+
+<!--CSS-->
+* {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(-45deg, #FFFFFF, #E6E6E6, #C9C9C9);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  min-width: 290px;
+  color: #333;
+  font-family: 'Open Sans', 'Lato', 'Merriweather', 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#navbar {
+  background-color: #ADD8E6;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: #2F4F7F;
+}
+
+header {
+  color: black;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#nav-title {
+  color: #455a64;
+}
+
+#navbar ul {
+  height: 90%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #1A1D23;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 2vh 3vw;
+  color: #9b59b6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 20rem;
+  padding: 1.5rem;
+  margin-bottom: 10rem;
+}
+
+section article {
+  color:#444444;
+  margin: 1rem;
+  font-size: 1em;
+}
+
+section li {
+  margin: 1rem 0px 0px 20px;
+}
+
+code {
+  font-family: 'Merriweather', 'Montserrat', 'Poppins', sans-serif;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: -0.5rem;
+  width: 100%;
+  min-width: 233px;
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.7;
+  background-color: #B2E6CE;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 20rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}

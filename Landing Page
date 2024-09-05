@@ -1,0 +1,353 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./styles.css"/>
+        <title>Cuerdas de Amor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <figure class="logo">
+          <img
+            id="header-img"
+            src="https://th.bing.com/th/id/OIP._EJqoBHodsdQRQl1U0USmAHaHa?rs=1&pid=ImgDetMain"
+            alt="guitarra"
+          />
+        </figure>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#ver-video">Video</a></li>
+            <li><a class="nav-link" href="#productos">Productos</a></li>
+            <li><a class="nav-link" href="#precios">Precios</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero">
+        <legend>
+          <h2>Inicia sesión para comprar los productos</h2>
+        </legend>
+        <form 
+        id="form" 
+        value="valor" 
+        action="https://www.freecodecamp.com/email-submit"
+        >
+          <label for="email">
+            <input 
+            id="email" 
+            type="email" 
+            name="email" 
+            placeholder="Escriba su email"
+            required>
+            </input>
+          </label><br>
+          <label for="submit">
+            <input 
+            id="submit" 
+            type="submit" 
+            name="submit" 
+            value="Ingresar" 
+            class="btn">
+            </input>
+          </label>
+        </form>
+      </section>
+        <section id="productos">
+          <div class="grid">
+            <div class="desc">
+              <ul id="lista"><p id="p1">Productos que tenemos</p><br>
+          <li><b>Guitarra eléctrica</b><br><br> Es uno de los instrumentos más populares en la historia de la música, perfecto para tocar en bandas, solista o en un estilo más experimental.</li>
+          <li><b>Guitarra acústica</b><br><br> Una variante más suave y versátil que se puede tocar en diferentes estilos, desde la música folk hasta la música clásica.</li>
+          <li><b>Teclado</b><br><br> Un instrumento electrónico que permite crear sonidos únicos y experimentales, perfecto para aquellos que quieren crear música electrónica o ambiental.</li>
+          <li><b>Bajo eléctrico</b><br><br> Un instrumento fundamental en el rock, pop y otros géneros que requiere habilidades técnicas y creativas para crear rítmicos patrones y lines melódicas.</li>
+          </ul>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <div id="ver-video">
+          <iframe
+            id="video"
+            src="https://youtu.be/GhXwsYZQFvY"
+            frameborder="0"
+            allowfullscreen
+            controls 
+            autoplay
+          ></iframe>
+          </div>
+        </section>
+        <section id="precios">
+          <div class="product" id="tenor">
+           <table>
+  <thead>
+    <tr>
+      <th>Guitarra <br>acústica</th>
+      <th>Bajo<br>acústico</th>
+      <th>Teclado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fender CD-60S</td>
+      <td>Ibanez SR300</td>
+      <td>Yamaha CP40</td>
+    </tr>
+    <tr>
+      <td>200$</td>
+      <td>300$</td>
+      <td>500$</td>
+    </tr>
+    <tr>
+      <td><button class="boton">Ordenar</button></td>
+      <td><button class="boton">Ordenar</button></td>
+      <td><button class="boton">Ordenar</button></td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Terminos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <span>Copyright 2024, Cuerdas de Amor</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--CSS-->
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(45deg, #FFC4A4, #FFB6B7);
+  background-size: 100% 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  font-family: 'Inter', 'Helvetica','Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+#header-img {
+  position: fixed;
+  height: 7.4rem;
+  width: 10.1rem;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+nav {
+  font-weight: 400;
+  position: fixed;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50vw;
+  height: 7%;
+  top: 0;
+  background-color: #FFB6B7;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: -1.5rem;
+    padding-top: 0.2rem;
+    margin-right: 2rem;
+    margin-left: 0.1rem;
+    top: 1.5rem;
+    left: 10rem;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px; /* Añadido para separar los elementos */
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+    gap: 10px; /* Añadido para separar los elementos en pantallas pequeñas */
+  }
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 65%;
+  margin: 5rem 2rem;
+}
+
+#hero input[type='email'] {
+  max-width: 300px;
+  width: 80vw;
+  padding: 0.5rem;
+  margin: 4vh 2vw;
+  font-size: 1rem;
+}
+
+#hero input[type='submit'] {
+  max-width: 170px;
+  width: 100%;
+  height: 60%;
+  margin: 0.8rem;
+  border: black solid 5px;
+  text-align: center;
+  border-radius: 40%;
+  background-color: #f1c40f;
+  padding: 0.1rem 0.2rem;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#hero input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+  }
+}
+
+#how-it-works {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#productos {
+  background-color: #FF8C94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -4rem;
+  padding: 2rem 1rem;
+  line-height: 1.2;
+}
+
+#productos li {
+  padding: 4vh 1vw;
+}
+
+#p1{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+
+footer {
+  margin-top: 5rem;
+  background-color: #46745D;
+  padding: 1rem;
+  color: black;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 1rem;
+}
+
+footer > span {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.9em;
+  color: #00008B;
+}
+
+table {
+border-collapse: collapse; /* Alinear los bordes */
+  border-spacing: 0; /* Eliminar espacio entre celdas */
+  margin: 8vh auto;
+  background-color: violet;
+}
+
+th, td {
+  border: 2px solid red; /* Establecer borde */
+  padding: 3vh 2vw; /* Espaciado entre texto y borde */
+  text-align: center; /* Alinear texto al centro */
+}
+
+th {
+  background-color: orange; /* Fondo para encabezados */
+}
+
+td:nth-child(2) {
+  background-color: purple ; /* Fondo para celdas pares */
+}
+
+div, table {
+  font-size: 1.3rem;
+}
+
+.boton {
+  background-color: #4CAF50; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 2vh 3vw; /* Espaciado interno */
+  border: none; /* Borde */
+  border-radius: 5px; /* Radius de curva */
+  cursor: pointer; /* Cursor en forma de mano */
+  font-size: 1.4rem;
+}
+
+.boton:hover {
+  background-color: #3e8e41; /* Color de fondo al hover */
+}

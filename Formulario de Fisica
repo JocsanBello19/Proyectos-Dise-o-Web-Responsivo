@@ -1,0 +1,397 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Formulario de Física</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Formulario de Física</h1>
+        <p id="description" class="description text-center">
+          Un quiz fácil y sencillo para comprobar conocimientos de interacción eléctrica
+        </p>
+      </header>
+      <form id="survey-form" action="https://example.com/submit">
+        <fieldset>
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre y apellido</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Escriba su nombre y apellido"
+            required
+            minlength="10" 
+            maxlength="24"
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Escriba su correo institucional"
+            required
+            minlength="15" maxlength="24"
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Carnet<span class="clue">(sin guión)</span></label>
+          <input
+            type="number"
+            name="carnet"
+            required
+            id="number"
+            minlength="6"
+            maxlength="7"
+            min="000000"
+            max="2499999"
+            class="form-control"
+            placeholder="Escriba su número de carnet USB"
+          />
+        </div>
+        <div class="form-group">
+          <p>Sede USB</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Escriba su sede</option>
+            <option value="Sartenejas">Sartenejas</option>
+            <option value="Litoral">Litoral</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>¿Qué magnitud es igual al diferencial de carga entre el diferencial de tiempo?</p>
+          <label>
+            <input
+              name="opcion-1"
+              value="densidad-de-corriente"
+              type="radio"
+              class="input-radio"
+              checked
+            />Densidad de corriente</label
+          >
+          <label>
+            <input
+              name="opcion-1"
+              value="intensidad-de-corriente"
+              type="radio"
+              class="input-radio"
+            />Intensidad de corriente</label
+          >
+
+          <label
+            ><input
+              name="opcion-1"
+              value="capacitancia"
+              type= "radio"
+              class="input-radio"
+            />Capacitancia</label
+          >
+          <label
+            ><input
+              name="opcion-1"
+              value="voltaje"
+              type="radio"
+              class="input-radio"
+            />voltaje</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Cuál de las siguientes leyes define el "flujo eléctrico"</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Elige una respuesta</option>
+            <option value="Ley-de-Ohm">Ley de Ohm</option>
+            <option value="Ley-de-Kirchhoff">Ley de Kirchhoff</option>    
+            <option value="Ley-de-Gauss">Ley de Gauss</option>
+            <option value="Ley-de-Coulomb">Ley de Coulomb</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            ¿Cuáles de los siguientes temas sí pertenecen al curso de Fisica III?
+            <span class="clue">(Seleccionar todas las que apliquen)</span>
+          </p>
+          <label
+            ><input
+              name="tema"
+              value="campo-magnetico"
+              type="checkbox"
+              class="input-checkbox"
+            />Campo magnético</label
+          >
+          <label>
+            <input
+              name="tema"
+              value="fuerza-magnetica"
+              type="checkbox"
+              class="input-checkbox"
+            />Fuerza magnética</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="campo-electrico"
+              type="checkbox"
+              class="input-checkbox"
+            />Campo eléctrico</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="inductancia"
+              type="checkbox"
+              class="input-checkbox"
+            />Inductancia</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="capacitancia"
+              type="checkbox"
+              class="input-checkbox"
+            />Capacitancia</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="resistencia"
+              type="checkbox"
+              class="input-checkbox"
+            />Resistencia</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="corriente-alterna"
+              type="checkbox"
+              class="input-checkbox"
+            />Corriente alterna</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="corriente-continua"
+              type="checkbox"
+              class="input-checkbox"
+            />Corriente continua</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="magnetismo"
+              type="checkbox"
+              class="input-checkbox"
+            />Magnetismo</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="flujo-electrico"
+              type="checkbox"
+              class="input-checkbox"
+            />Flujo eléctrico</label
+          >
+          <label
+            ><input
+              name="tema"
+              value="potencial-electrico"
+              type="checkbox"
+              class="input-checkbox"
+            />Potencial eléctrico</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Describa qué es "potencial eléctrico"</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="pregunta-desarrollo"
+            placeholder="Escribe tu respuesta clara y extensamente..."
+            minlength="30"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" name="enviar" value="formulario-fisica" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div>
+        </fieldset>
+      </form>   
+    </div>
+  </body>
+</html>
+
+<!--CSS-->
+:root {
+  --color-01: #FFA07A;
+  --color-02: #2C3E50 ;
+  --color-03: rgba(0,122, 204, 0.6);
+  --color-04: #9B59B6 ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", "Garamond", Times, serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: var(--color-01);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.2),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://th.bing.com/th/id/R.51b34d4b780350fcdcccf7f8680d4926?rik=dWyRwuekuFhdQA&riu=http%3a%2f%2fconocelahistoria.com%2fwp-content%2fuploads%2f2018%2f03%2felectricidad-13-2.jpg&ehk=EL%2fLlujiAjjffHgzrGkIJC80w0KlpeMFOvsPTJ1WgMQ%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+h1,
+p {
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+
+.container {
+  width: 100%;
+  margin: 2.5rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+
+.header {
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.clue {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: orange;
+}
+
+input:invalid {
+  color: black
+  }
+
+  input[type="number"] {
+  color: #000000; /* Color negro */
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  background: var(--color-03);
+  padding: 2.5rem 0.7rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px yellow;
+}
+
+select, option {
+  color: black;
+}
+
+.form-group {
+  margin: 0 auto 1.3rem auto;
+  padding: 0.3rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.4rem;
+  padding: 0.5rem 0.8rem;
+  color: gray;
+  background-color: #F7DC6F;
+  background-clip: padding-box;
+  border: 3px solid red;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.7rem;
+  min-height: 1.3rem;
+  min-width: 1.3rem;
+  background-color:#F7DC6F;
+  color: black;
+}
+
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  background-color: #F7DC6F;
+  font-size: 1rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background: green;
+  font-weight: bold;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+}

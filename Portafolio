@@ -1,0 +1,430 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="./styles.css"/>
+        <title>Portafolio Jocsan Bello</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head> 
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">Acerca de</a>
+        </li>
+        <li>
+          <a href="#projects">Trabajo</a>
+        </li>
+        <li>
+          <a href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hola, Yo soy Jocsan</h1>
+      <p>Un desarrollador frontend</p>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">Aquí están algunos de mis proyectos</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://th.bing.com/th/id/R.21fa98e442a5cd88645e1a52fd25bd1a?rik=iigZZxKq0z62zQ&pid=ImgRaw&r=0"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            Formulario
+            <span class="code"></span>
+          </p>
+        </a>
+        <a
+          href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://th.bing.com/th/id/R.8b5abf52c207c87a8134eb96b06676d7?rik=6DpxsTtaXnNdyQ&pid=ImgRaw&r=0" alt="project"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            Biografía
+            <span class="code"></span>
+          </p>
+        </a>
+        <a
+          href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://th.bing.com/th/id/R.361250b44eccbe2cfdb47f26153d15bf?rik=YEmopzSDTTfjig&pid=ImgRaw&r=0"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            Documentación
+            <span class="code"></span>
+          </p>
+        </a>
+        <a
+          href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://th.bing.com/th/id/OIP.CkQydTZhhKlvwzBKhVB2DwHaHa?rs=1&pid=ImgDetMain"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            Landing
+            <span class="code"></span>
+          </p>
+        </a>
+        <a
+          href="https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://img.fotocommunity.com/astronomische-uhr-auf-hampton-court-palace-schloss-heinrich-des-viii-7789c080-0ccb-4a34-90ba-534ea92f55a8.jpg?height=1080"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            Números Romanos
+            <span class="code"></span>
+          </p>
+        </a>
+        <a
+          href="https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/build-a-pokemon-search-app-project/build-a-pokemon-search-app"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://th.bing.com/th/id/OIP.hpD5TPDPiNEPIjU_njMgEwHaFj?pid=ImgDet&w=208&h=156&c=7&dpr=1,1"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code"></span>
+            App Pokemón
+            <span class="code"></span>
+          </p>
+        </a>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Trabajemos juntos...</h2>
+        <p>Puedes contactarme para conversar sobre trabajo</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/"
+          target="_blank"
+          class="btn contact-details"
+          >Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/"
+          target="_blank"
+          class="btn contact-details"
+          >GitHub</a
+        >
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          class="btn contact-details"
+          >Twitter</a
+        >
+        <a href="https://mail.google.com/mail/u/0/?hl=es" class="btn contact-details">Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          >Call me</a
+        >
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy; Creado por Jocsan Bello
+      </p>
+    </footer>
+    </body>
+</html>
+
+<!--CSS-->
+:root {
+  --main-white: white;
+  --main-red: #ff0000;
+  --main-blue: #00ffff;
+  --main-gray: #cc5500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+body {
+  font-family: 'Helvetica', 'Georgia', 'Avenir', 'Garamond', 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--main-white);
+}
+
+h1,
+h2 {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 7rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 3px 0 rgba(65, 105, 225, 0.6);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://cocosolution.com/cms/uploads/1657204741-o_1fj38p0rk1m0oc6fjbpfda4k1a.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-top: 1rem;
+  color: var(--main-white);
+}
+
+.projects-section {
+  text-align: center;
+  color: black;
+  padding: 4rem 1rem 3rem 1rem;
+  background: var(--main-blue);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 2rem auto 6rem auto;
+  border-bottom: 0.4rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4.5rem;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 5rem 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  padding: 2rem 1rem 3rem 1rem;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 10vh 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 3px 3px 3px blue;
+  padding: 2rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+footer {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,135 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./styles.css"/>
+        <title>James Clerk Maxwell</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head> 
+    <body>
+        <main id="main">
+            <div class="header">
+        <header>
+            <h1 id="title">James Clerk Maxwell</h1><br>
+            <p class="resena"><i>El físico que unificó por primera vez la electricidad, el magnetismo y la luz</i></p><br>
+            </header>
+            </div>
+            <div id="img-div">
+                <a href="https://th.bing.com/th/id/R.8b5abf52c207c87a8134eb96b06676d7?rik=6DpxsTtaXnNdyQ&pid=ImgRaw&r=0"><img id="image" src="https://th.bing.com/th/id/R.8b5abf52c207c87a8134eb96b06676d7?rik=6DpxsTtaXnNdyQ&pid=ImgRaw&r=0" alt="retrato de James Clerk Maxwell"></a>
+                <figcaption id="img-caption">Retrato de James Clerk Maxwell</figcaption>
+            </div>
+            <section id="tribute-info">
+                <h4>Aquí está una línea de tiempo de la vida de James Clerk Maxwell</h4>
+<ul>
+          <li><strong>1831</strong> Nace el 13 de junio en Edimburgo, Escocia.</li> 
+          <li><strong>1847</strong> Comienza a asistir a la Academia de Física y Matemáticas de Edimburgo.</li> 
+          <li><strong>1854</strong> Se gradúa en la Universidad de Edimburgo con un título en Matemáticas.</li>
+          <li><strong>1855</strong> Inicia su doctorado en la Universidad de Cambridge, donde se especializa en física y matemáticas.</li>
+          <li><strong>1856</strong> Recibe el título de Doctor en Filosofía (DPhil) por la Universidad de Cambridge.</li>
+          <li><strong>1860</strong> Se convierte en profesor de Física Experimental y Matemáticas en la Universidad de Aberdeen.</li>
+          <li><strong>1864</strong> Publica su obra más famosa, "A Dynamical Theory of the Electromagnetic Field", que describe la teoría electromagnética unificada.</li>
+          <li><strong>1865</strong> Se casa con Katherine Mary Dewar, hija del rector de la Universidad de Aberdeen.</li>
+          <li><strong>1866</strong> Se convierte en profesor de Física en la Universidad de Cambridge.</li>
+          <li><strong>1871</strong> Publica su trabajo sobre la teoría cinética molecular, que introduce la idea de que los gases están compuestos por moléculas que se mueven aleatoriamente.</li>
+          <li><strong>1873</strong> Es elegido Fellow of the Royal Society (Fellow of the Royal Society, FRSE).</li>
+          <li><strong>1879</strong> Muere el 5 de noviembre a los 47 años de edad, probablemente debido a un ataque al corazón.</li>
+          </ul>
+          </section>
+          <blockquote
+          cite="https://akifrases.com/autor/james-clerk-maxwell#:~:text=%E2%80%9C%20Podemos%20encontrar%20ejemplos%20de%20las%20m%C3%A1s%20elevadas,materia%20en%20movimiento%20%E2%80%9D%20%E2%80%95%20James%20Clerk%20Maxwell"
+        >
+          <p><i>
+            “Podemos encontrar ejemplos de las más elevadas doctrinas de la ciencia en los juegos y la gimnasia, en los viajes por tierra y por agua, en las tormentas del cielo y del mar, y dondequiera que haya materia en movimiento.”
+          </i></p>
+          <cite>-- James Clerk Maxwell</cite>
+        </blockquote>
+        <article><p>Para más información de este gran físico, puedes revisar su <a id="tribute-link" href="https://www.nationalgeographic.com.es/ciencia/james-clerk-maxwell-padre-electromagnetismo-y-fotografia-a-color_21132" target="_blank">artículo en  National Geographic</a></p></article>
+        </main>
+    </body>
+<html>
+
+<!--CSS-->
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', 'Georgia', 'Playfair Display', serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin: 1vh auto;
+  padding: 4vh 0 2vw 2vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#image {
+  max-width: 100%;
+  min-width:  250px;
+  max-height: 400px;
+  min-height: 200px;
+  display: block;
+  margin: 5vh auto;
+  margin-bottom: 1vh;
+  height: auto;
+  width: 70%;
+}
+
+.header {
+  background-color:#F7DC6F;
+  width: 100%;
+  margin: -2vh auto;
+}
+
+.resena {
+  margin: -2vh 1vh 2vw 2vw;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#img-caption {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 2vh 2vw 4vh 2vw;
+}
+
+article{
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 1vh 2vw;
+  background-color: #964B00;
+}
+
+h4 {
+  text-align: center;
+}
+
+li {
+  padding: 1vh 1vw;
+  text-align: justify;
+}
+
+section {
+  padding: 2vh 3vw 3vw 3vw;
+  background-color: #FFC080;
+}
+
+blockquote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 2vh 2vw 4vh 2vw;
+  background-color: #C6E2B5;
+}
